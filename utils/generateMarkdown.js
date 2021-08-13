@@ -36,15 +36,15 @@ function generateMarkdown(data) {
   * [Credits](#Credits)
   * [Contact](#Contact)
   
-  ##Installation 
+  ## Installation 
 
   These dependencies must be installed for this application to work properly: ${data.dependencies}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
-  ##License
+  ## License
 
   ${renderLicenseBadge(data.license)}
 
