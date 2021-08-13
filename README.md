@@ -1,14 +1,14 @@
-# README-Generator
-  https://github.com/AlenaReh/README-Generator
+# 
+  https://github.com//
 
   ## Description 
 
-  This application helps user  quickly and easily create a README file by using a command-line. 
+  
 
   ## Table of Contents
 
   * [Installation](#installation)
-  * [Usage](#usege)
+  * [Usage](#usage)
   * [License](#license)
   * [Tests](#Tests)
   * [Contributions](#Contributions)
@@ -18,14 +18,18 @@
   ## Installation 
 
   These dependencies must be installed for this application to work properly: npm i
- 
+
   ## Usage
 
-  User can quickly create a professional README for a new project.
+  
 
   ## License
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  !License: MIT(https://img.shields.io/badge/License-MIT-blue.svg)
+
+  License Link: https://opensource.org/licenses/BSD-3-Clause
+
+  undefined
 
   ## Tests
   To run tests use: npm test
@@ -34,10 +38,10 @@
   Thanks to  for contributing to this project.
 
   ## Credits
-  Alena Rehberger
+  
 
   ## Contact
   If you have any questions, feel free to cantact me at: 
-  * GitHub : https://github.com/AlenaReh
-  * Linkedin Profile Name :https://www.linkedin.com/in/alena-rehberger/
-  * E-mail :alenarehberger92@gmail.com
+  * GitHub: https://github.com/
+  * Linkedin Profile Name: 
+  * E-mail: 

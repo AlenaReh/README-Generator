@@ -4,14 +4,20 @@ function renderLicenseBadge(license) {
   // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   // [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   // [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  // [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+  // [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   if (license === "None"){
     return '';
-  }else {
-  return `![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)`; 
+  }else if (license === 'MIT') { 
+  // return `![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)`; 
+    return `!License: ${license}(https://img.shields.io/badge/License-${license}-yellow.svg)`;
+  }else if (license === 'APACHE 2.0') { 
+      return `!Licens: ${license}(https://img.shields.io/badge/License-${license}-blue.svg)`;
+  }else if (license === 'GPL') { 
+    return `!License: ${license}(https://img.shields.io/badge/License-${license}-blue.svg)`;
+  }else (license === 'BSD 3') 
+      return `!License: ${license}(https://img.shields.io/badge/License-${license}-blue.svg)`;
   }
-}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -20,8 +26,13 @@ function renderLicenseLink(license) {
     return '';
   }else if (license === "MIT"){
     return 'https://opensource.org/licenses/MIT'; 
-  }
-
+  }else if (license === "APACHE 2.0"){
+    return 'https://opensource.org/licenses/Apache-2.0';
+  }else if (license === "GPL 3.0"){
+    return 'https://www.gnu.org/licenses/gpl-3.0';
+  }else (license === "BSD 3")
+    return 'https://opensource.org/licenses/BSD-3-Clause'
+  
 }
 
 // TODO: Create a function that returns the license section of README
@@ -40,7 +51,7 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   * [Installation](#installation)
-  * [Usage](#usege)
+  * [Usage](#usage)
   * [License](#license)
   * [Tests](#Tests)
   * [Contributions](#Contributions)
@@ -74,9 +85,9 @@ function generateMarkdown(data) {
 
   ## Contact
   If you have any questions, feel free to cantact me at: 
-  * GitHub : https://github.com/${data.github}
-  * Linkedin Profile Name :${data.linkedin}
-  * E-mail :${data.email}
+  * GitHub: https://github.com/${data.github}
+  * Linkedin Profile Name: ${data.linkedin}
+  * E-mail: ${data.email}
 `;
   
 }
