@@ -2,7 +2,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+// var validator = require('validator');
 const generateMarkdown = require ('./utils/generateMarkdown.js');
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -26,7 +28,7 @@ const questions = [
         name: 'title',
         message: "What is your project's name?"
         //validation
-        // validate: (value) => {if(value){return true} else {return 'I need a value to continue'}}
+        // validate: (value) => {if(value){return true} else {return 'I need a value to continue'}},
     },
     {
         type: 'input',
@@ -39,7 +41,7 @@ const questions = [
         message: 'What does user need to know about using this project?',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
