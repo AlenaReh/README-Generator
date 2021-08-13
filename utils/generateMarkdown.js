@@ -140,7 +140,7 @@ function generateMarkdown(data) {
   To run tests use: ${data.tests}
 
   ## Contributions
-  Thanks to ${data.contributing} for contributing to this project.
+  ${data.contributing}
 
   ## Credits
   ${data.credit}
@@ -148,7 +148,7 @@ function generateMarkdown(data) {
   ## Contact
   If you have any questions, feel free to cantact me at: 
   * GitHub: https://github.com/${data.github}
-  * Linkedin Profile Name: ${data.linkedin}
+  * Linkedin: ${data.linkedin}
   * E-mail: ${data.email}
 `;
   

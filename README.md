@@ -40,7 +40,7 @@
   To run tests use: npm test
 
   ## Contributions
-  Thanks to  for contributing to this project.
+  Thanks to w3schools https://w3schools.com and Trilogy Education Services for providing all of the necessery tools for building this application.
 
   ## Credits
   Alena Rehberger
@@ -48,5 +48,5 @@
   ## Contact
   If you have any questions, feel free to cantact me at: 
   * GitHub: https://github.com/AlenaReh
-  * Linkedin Profile Name: https://www.linkedin.com/in/alena-rehberger/
+  * Linkedin: https://www.linkedin.com/in/alena-rehberger/
   * E-mail: alenarehberger92@gmail.com

@@ -16,7 +16,7 @@ const questions = [
     {
         type: 'input',
         name: 'linkedin',
-        message: 'What is your LinkedIn username?'
+        message: 'Please provide your LinkedIn profile link?'
     },
     {
         type: 'input',
