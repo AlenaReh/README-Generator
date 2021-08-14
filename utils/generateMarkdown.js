@@ -107,6 +107,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
+  
   https://github.com/${data.github}/${data.title}
 
   ## Description 
