@@ -79,7 +79,8 @@ function renderLicenseSection(license) {
   GNU General Public License for more details.
 
   You should have received a copy of the GNU General Public License
-  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  along with this program.  If not, see 
+      <https://www.gnu.org/licenses/>.
 
   <program>  Copyright (C) <year>  <name of author>
   This program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.
@@ -104,6 +105,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ${renderLicenseBadge(data.license)}
   https://github.com/${data.github}/${data.title}
 
   ## Description 
