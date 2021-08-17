@@ -28,7 +28,7 @@ const questions = [
         name: 'title',
         message: "What is your project's name?"
         //validation
-        // validate: (value) => {if(value){return true} else {return 'I need a value to continue'}},
+        // validate: (value) => {if(value){return true} else {return 'I need a value to continue'}}
     },
     {
         type: 'input',
