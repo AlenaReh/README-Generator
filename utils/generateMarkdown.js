@@ -132,7 +132,7 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ##Demo link
+  ## Demo link
 
   * https://drive.google.com/file/d/1qohGZw_FBFuvdw28DYbcrkdfcKkEIvY7/view
 

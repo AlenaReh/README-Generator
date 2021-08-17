@@ -2,7 +2,7 @@
 
   ![License: APACHE 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   
-  https://github.com/AlenaReh/README-Generator
+  https://github.com/Alena Reh/README-Generator
 
   ## Description 
 
@@ -25,6 +25,10 @@
   ## Usage
 
   User can quickly create a professional README for a new project.
+
+  ## Demo link
+
+  * https://drive.google.com/file/d/1qohGZw_FBFuvdw28DYbcrkdfcKkEIvY7/view
 
   ## License
 
@@ -55,6 +59,6 @@
 
   ## Contact
   If you have any questions, feel free to cantact me at: 
-  * GitHub: https://github.com/AlenaReh
+  * GitHub: https://github.com/Alena Reh
   * Linkedin: https://www.linkedin.com/in/alena-rehberger/
   * E-mail: alenarehberger92@gmail.com
