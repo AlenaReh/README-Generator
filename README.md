@@ -59,6 +59,6 @@
 
   ## Contact
   If you have any questions, feel free to cantact me at: 
-  * GitHub: https://github.com/Alena Reh
+  * GitHub: https://github.com/AlenaReh
   * Linkedin: https://www.linkedin.com/in/alena-rehberger/
   * E-mail: alenarehberger92@gmail.com
